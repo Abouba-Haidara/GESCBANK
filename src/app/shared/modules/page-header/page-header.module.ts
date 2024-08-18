@@ -7,7 +7,6 @@ import { PageHeaderComponent } from './page-header.component';
     imports: [CommonModule, RouterModule],
     declarations: [PageHeaderComponent],
     exports: [PageHeaderComponent],
-    schemas: [CUSTOM_ELEMENTS_SCHEMA],
-    providers: []
+    schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class PageHeaderModule {}
