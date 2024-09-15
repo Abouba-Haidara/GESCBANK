@@ -28,6 +28,7 @@ onSubmit() {
   if(this.singInForm.invalid){
       return;
   }else{
+    // do logic here
     this.router.navigateByUrl('/home');
   }
  }
