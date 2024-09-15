@@ -37,7 +37,10 @@ export class OperationService {
          data);
   }
 
+
   public getOperationsByCompte(numberCompte:string) :  Observable<Operation[]>  {
     return this.httpClient.get<Operation[]>(`${environment.apiUrl}/${environment.prefix}/operations/client/${numberCompte}`);
   }
 }
+
+

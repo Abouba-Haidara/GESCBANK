@@ -8,9 +8,9 @@ import { Component, Input, OnInit, TemplateRef } from '@angular/core';
 export class PageHeaderComponent  {
     user_role: string =  'admin';
     public navs =  [
-        { path: '/home', name: 'Accueil', role: 'admin' },
         { path: '/groups', name: 'Groupes',  role: 'admin' },
         { path: '/employees', name: 'Employés',  role: 'admin' },
+        { path: '/agences', name: 'Agences',  role: 'admin' },
         { path: '/clients', name: 'Clients',  role: 'admin' },
         { path: '/comptes', name: 'Comptes',  role: 'admin' },
         { path: '/operations', name: 'Opérations',  role: 'admin' },
